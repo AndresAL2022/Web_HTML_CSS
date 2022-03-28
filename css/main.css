@@ -1,0 +1,522 @@
+
+html{
+
+    font-size: 75%;
+    background-image: url("../img/seamless-pattern-with-chocolate-chip-cookies-repetitive-background-with-breakfast-biscuits-and-delicious-cupcakes-vector.jpeg");
+    background-repeat:repeat;
+    align-content: center;
+    /*He usando este fondo que es mucho más elegante y no está pixelado*/
+
+}
+
+body{
+
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logos{
+
+    width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    background-color: rgba(228, 130, 3, 0.900);
+    height: 200px;
+
+}
+
+.img1{
+
+    height: 300px;
+    width: 300px;
+
+}
+
+.img2{
+
+    height: 300px;
+    width: 700px;
+
+}
+
+.contenedor{
+
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.nav-bg{
+
+    background-color:rgba(228, 130, 3, 0.900);
+
+}
+
+.botones-principales{
+
+    background-color:rgba(228, 130, 3, 0.900);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.botones-principales a{
+
+    color: white;
+    /*display: inline;*/
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+
+
+}
+
+.botones-principales a:hover{
+
+    background-color:orange;
+    color:yellow;
+    padding: 1rem;
+
+}
+
+.imgdecor{
+
+    height: 200px;
+    margin-top: 0.25rem;
+
+}
+
+.cuerpoindex{
+
+    display:flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+
+}
+
+.texto{
+
+    color:white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    background-color: rgba(241, 170, 76, 0.89);
+    text-align: center;
+    font-weight: 500;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
+
+}
+
+.titulo1{
+
+    font-size: 30px;
+    font-family: fantasy;
+    margin-bottom: 0px;
+    color:white;
+    
+
+}
+
+.titulo2{
+
+    font-size: 30px;
+    font-family: fantasy;
+    margin-bottom: 0px;
+    color:white;
+    
+
+}
+
+.divisor{
+
+    border-top-style: solid;
+    border-block-color: brown;
+
+}
+
+.final{
+
+    width: 1000px;
+    height: 30px;
+    background-color: pink;
+    display: inline;
+
+}
+
+.video{
+
+    height: 510px;
+
+}
+
+.contenedorfinal{
+
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+   
+
+}
+
+.campofinal{
+
+    margin-top: 0rem;
+    background-color: rgba(228, 130, 3, 0.900);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.campofinal1{
+
+    color: white;
+
+}
+
+.campofinal2{
+
+    color:white;
+
+}
+
+/*Todo lo que se ponga en le body al ser el mayor agrupador se hereda a todos sus componentes*/
+
+/*=======================================================*/
+/* Contacto.css*/
+
+.containermapa{
+
+    width: 1000px;
+    height: 301px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(241, 170, 76, 0.89);
+    padding: 1px;
+
+}
+
+.contactcontainer{
+
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    background-color: rgba(241, 170, 76, 0.89);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0.25rem;
+    
+
+}
+
+.formcontact{
+
+    width: 600px;
+
+}
+
+.formtextpanel{
+
+    width: 400px;
+
+}
+
+.formcontacto{
+
+    color:white;
+
+}
+
+#formcontactoheader{
+
+    font-family: fantasy;
+    font-size: 25px;
+    font-style:oblique;
+    text-decoration: underline;
+    color:brown;    
+
+}
+
+#formtextheader{
+
+    font-family: fantasy;
+    font-size: 25px;
+    
+    font-style:oblique;
+    text-decoration: underline;
+    color:brown;
+
+}
+
+#formtext{
+
+    color:white;
+    text-align-last: left;
+    font-size: 18px;
+
+}
+
+/*===========================================*/
+/* Nosotros.css */
+
+.containerheadernosotros{
+
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(241, 193, 89, 0.98);
+    
+
+}
+
+.headernosotros{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: underline;
+    color:brown;
+
+}
+
+.containernosotros{
+
+    width: 1000px;
+    height: 620px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(241, 170, 76, 0.89);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textnosotros{
+
+    width: 400px;
+    color:white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+
+}
+
+.imagennosotros{
+
+    width: 600px;
+
+}
+
+.headertextnosotros{
+
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: underline;
+    color:brown;
+
+}
+
+.imagennosotrosheader{
+
+    font-size: 40px;
+    border-radius: 2px blue;
+    -webkit-text-stroke:  2px brown;
+
+}
+
+/*====================================*/
+/* Eventos.css */
+
+.eventoscontainerpage{
+
+    
+
+}
+
+.eventoscontainerhead{
+
+    width: 1000px;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(241, 170, 76, 0.89);
+
+}
+
+.eventoscontainer{
+
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(241, 170, 76, 0.89);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.eventoscontainerhead1{
+
+    height: 30px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: brown;
+    font-size: 25px;
+
+}
+
+.eventoscontainerhead2{
+
+    height: 30px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: brown;
+    font-size: 25px;
+    
+}
+
+.eventoscontainer1{
+
+    width:900px;
+    height: 30px;
+    
+}
+
+.eventoscontainer1tittle{
+
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: underline;
+    color:brown;
+    text-align-last: center;
+
+}
+
+/*====================================*/
+/* Productos.css */
+
+.productoscontainer{
+
+    width: 1000px;
+    height: 720px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(241, 170, 76, 0.89);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.productosleftpanel{
+
+    width: 100px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cakenamecell{
+
+    height:80px;
+    width: 100px;
+    background-color: orange;
+
+}
+
+.productosrightpanel{
+
+    width: 900px;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cakecolumn{
+
+    width: 300px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cakecell{
+
+    height: 300px;
+    width: 240px;
+
+}
+
+.cakelink{
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 1rem;
+
+}
+
+.cakelink:hover{
+
+    color: red;
+
+}
+
+
+/*====================================*/
+/* Funciones Auxiliares */
+
+.barra{
+
+    width: 400px;
+    height: 10px;
+    background-color:papayawhip;
+
+}
+
+.barra_larga{
+
+    width: 900px;
+    height: 10px;
+    background-color:papayawhip;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
